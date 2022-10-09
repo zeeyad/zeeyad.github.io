@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Jekyll Blog Site
+title: Jekyll Blog Site
 ---
 
 {{ page.title }}
