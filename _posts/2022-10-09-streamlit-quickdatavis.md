@@ -8,7 +8,7 @@ title: Automated Exploratory Data Analysis Tool For Regression Dataset
 
 <p class="meta">09 Oct 2022</p>
 
-For the regression machine learning exercises, the process of the Exploratory Data Analysis(EDA) have been a bit repetitive for me for the most part. So why not create an automated tool for quick EDA. I've deployed a working prototype [link](https://zeeyad-streamlit-quickdatacleaning-streamlit-app-bm1aqg.streamlitapp.com/) hosted on the free version of the Streamlit Community Cloud services. 
+For the regression machine learning exercises, the process of the Exploratory Data Analysis(EDA) have been a bit repetitive for me for the most part. So why not create an automated tool for quick EDA. I've deployed a working prototype [https://heyfasteda.streamlitapp.com/](https://heyfasteda.streamlitapp.com/) hosted on the free version of the Streamlit Community Cloud services. 
 
 The App is quite intuitive to use for a regression dataset. You require a csv file upload, then select target variable and independent variables. Voila! It will generate an interactive data visualization set.   
 
