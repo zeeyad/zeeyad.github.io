@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PostgreSQL on Zeeyad Rahman</title>
-    <link>https://example.org/tags/postgresql/</link>
+    <link>https://zeeyad.github.io/tags/postgresql/</link>
     <description>Recent content in PostgreSQL on Zeeyad Rahman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Feb 2025 12:02:00 +0800</lastBuildDate><atom:link href="https://example.org/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Feb 2025 12:02:00 +0800</lastBuildDate><atom:link href="https://zeeyad.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wildlife Art</title>
-      <link>https://example.org/projects/2025_wildlifeart/</link>
+      <link>https://zeeyad.github.io/projects/2025_wildlifeart/</link>
       <pubDate>Sun, 16 Feb 2025 12:02:00 +0800</pubDate>
       
-      <guid>https://example.org/projects/2025_wildlifeart/</guid>
+      <guid>https://zeeyad.github.io/projects/2025_wildlifeart/</guid>
       <description>WildlifeArt offers high-quality vector and digital illustrations of animals and mythical creatures, designed for use in both digital and print projects. Our assets are perfect for web projects, branding, advertising campaigns, scrapbooking, card making, sublimation, and digital planners. They can also be used for merchandise, such as t-shirts, stickers, and posters.</description>
     </item>
     
     <item>
       <title>Chess Tracker</title>
-      <link>https://example.org/projects/2024_chess_tracker/</link>
+      <link>https://zeeyad.github.io/projects/2024_chess_tracker/</link>
       <pubDate>Sun, 18 Feb 2024 12:02:36 +0800</pubDate>
       
-      <guid>https://example.org/projects/2024_chess_tracker/</guid>
+      <guid>https://zeeyad.github.io/projects/2024_chess_tracker/</guid>
       <description>The Chess Tracker App is a real-time player tracking and analysis for players on Chess.com. The app consists of a dashboard showing players that are online, in-game or offline. It has also has historical match analysis on player most played openings, win and loss rate, etc. It focuses mainly on Bullet, Blitz and Rapid. Demo for Desktop Chess Tracker App  Demo for Mobile Tracker App  </description>
     </item>
     
     <item>
       <title>Brunei Work</title>
-      <link>https://example.org/projects/2023_bruneiwork/</link>
+      <link>https://zeeyad.github.io/projects/2023_bruneiwork/</link>
       <pubDate>Mon, 10 Apr 2023 12:02:31 +0800</pubDate>
       
-      <guid>https://example.org/projects/2023_bruneiwork/</guid>
+      <guid>https://zeeyad.github.io/projects/2023_bruneiwork/</guid>
       <description>      Brunei Work is an AI-powered Search Engine to find the latest job vacancy in Brunei. The site officially launched on 10th April 2023 by posting on the Brunei Subreddit. Follow for weekly job post highlights on the instagram
 Technology Stack
  Front-end: HTML, CSS, Javascript, Bootstrap Back-end: Ruby on Rails, Python Database: PostgreSQL  </description>
