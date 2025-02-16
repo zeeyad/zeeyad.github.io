@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 17.5px;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Average Property Prices in Brunei</title>
+    <meta name="description" content="I’ve collected a small datasets of around 3,000 property listing from 23 different Property Agents such as G.A Real Estate Agency, Bruworld Real Estate and …">
+    <meta name="keywords" content='blog, gokarna, hugo, Python, Data Visualization'>
+
+    <meta property="og:url" content="https://example.org/posts/average-property-prices-in-brunei/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Average Property Prices in Brunei">
+    <meta property="og:description" content="I’ve collected a small datasets of around 3,000 property listing from 23 different Property Agents such as G.A Real Estate Agency, Bruworld Real Estate and …">
+    <meta property="og:image" content="https://example.org/images/z.jpg">
+    <meta property="og:image:secure_url" content="https://example.org/images/z.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Average Property Prices in Brunei">
+    <meta name="twitter:description" content="I’ve collected a small datasets of around 3,000 property listing from 23 different Property Agents such as G.A Real Estate Agency, Bruworld Real Estate and …">
+    <meta property="twitter:domain" content="https://example.org/posts/average-property-prices-in-brunei/">
+    <meta property="twitter:url" content="https://example.org/posts/average-property-prices-in-brunei/">
+    <meta name="twitter:image" content="https://example.org/images/z.jpg">
+
+    
+    <link rel="canonical" href="https://example.org/posts/average-property-prices-in-brunei/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.4f367e44ab115d2b84f3d30faa6feb212e335f8de1869a0e24bda71e457113ea.js" integrity="sha256-TzZ&#43;RKsRXSuE89MPqm/rIS4zX43hhpoOJL2nHkVxE&#43;o="></script>
+
+    
+    
+        <!-- KaTeX -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+      });
+    </script>
+  
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://example.org/">
+                <img src='/images/z.jpg' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://example.org/">Zeeyad Rahman</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://example.org/" aria-label="" ><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://example.org/posts/" aria-label="" ><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://example.org/projects/" aria-label="" ><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://example.org/tags/" aria-label="" ><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://example.org/" aria-label="" >  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://example.org/" ><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://example.org/posts/" ><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://example.org/projects/" ><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://example.org/tags/" ><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://example.org/" >  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Average Property Prices in Brunei</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle"></small>
+	
+
+	
+          <p class="post-date">
+              
+
+              November 21, 2022
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="https://example.org/tags/python">Python</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://example.org/tags/data-visualization">Data Visualization</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>I’ve collected a small datasets of around 3,000 property listing from 23 different Property Agents such as G.A Real Estate Agency, Bruworld Real Estate and Property Management Sdn Bhd, Bess Perfect Property Agency, Valor Property, Homestage Realty, Pan Villa and various agencies.</p></p>
+<p>From my findings, the top 3 most popular property listing type are:<br/>
+<ol>
+<li>2-Storey Detached House.<br/></li>
+<li>2-Storey Semi-Detached House.<br/></li>
+<li>2-Storey Terrace House.<br/>
+<img src="/images/2022-11-21-average-price/property_count.png" alt="" style="width: px; height: auto;"></li>
+</ol>
+</p>
+<p><br/>
+I’ve selected the top 10 locations with the most property listing count for each of the popular property type so as to have an accurate representation of the average prices at each location.</p>
+<img src="/images/2022-11-21-average-price/average_price_for_2_storey_detached_house.png" alt="" style="width: px; height: auto;">
+<p>The Average Price of 2 Storey Detached House by location:<br/>
+<ol>
+<li>Mata-Mata - $460,441<br/></li>
+<li>Jangsak - $414,655<br/></li>
+<li>Jerudong - $410,358<br/></li>
+<li>Subok - $407,708<br/></li>
+<li>Kilanas - $389,442<br/></li>
+<li>Selayun - $358,851<br/></li>
+<li>Sengkurong - $332,784<br/></li>
+<li>Mulaut - $300,636<br/></li>
+<li>TanjongNangka - $277,118<br/></li>
+<li>Lumapas - $254,611<br/></li>
+</ol>
+</p>
+<img src="/images/2022-11-21-average-price/average_price_for_2_storey_semi_detached_house.png" alt="" style="width: px; height: auto;">
+<p>The Average Price of 2 Storey Semi-Detached House by location:<br/>
+<ol>
+<li>Mata-Mata - $345,529<br/></li>
+<li>Subok - $310,172<br/></li>
+<li>TanjongBunut - $290,833<br/></li>
+<li>Jangsak - $289,267<br/></li>
+<li>Jerudong - $281,226<br/></li>
+<li>Kilanas - $274,077<br/></li>
+<li>Sengkurong - $272,385<br/></li>
+<li>Mentiri - $270,017<br/></li>
+<li>TanahJambu - $261,429<br/></li>
+<li>TanjongNangka - $235,867<br/></li>
+</ol>
+</p>
+<img src="/images/2022-11-21-average-price/average_price_for_2_storey_terrace_house.png" alt="" style="width: px; height: auto;">
+<p>The Average Price of 2 Storey Terrace House by location:<br/>
+<ol>
+<li>Beribi - $266,286<br/></li>
+<li>Tungku - $261,895<br/></li>
+<li>Jangsak - $256,833<br/></li>
+<li>Subok - $246,357<br/></li>
+<li>Mulaut - $240,308<br/></li>
+<li>TanjongBunut - $239,047<br/></li>
+<li>Mata-Mata : $239,000<br/></li>
+<li>Kilanas - $228,714<br/></li>
+<li>Jerudong - $226,182<br/></li>
+<li>Serasa - $201,500<br/></li>
+</ol>
+</p>
+<p><strong>Note:</strong><br/>
+<ol>
+<li>Prices are in BND.<br/></li>
+<li>Outliers are removed for property listing prices above $1,000,000 because it will affect the average prices.
+There are other various factors to consider when pricing the property aside from the property location and the property type. Other factors is the property size, number of rooms, property status (proposed, under construction, ready-built), permanent or on-lease.<br/></li>
+<li>There’s a couple of missing values for the property size which makes it quite difficult to determine the degree of correlation between the price of property and the size of property.<br/></li>
+</ol>
+</p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+    
+        
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Visualization on Zeeyad Rahman</title>
+    <link>https://example.org/tags/data-visualization/</link>
+    <description>Recent content in Data Visualization on Zeeyad Rahman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Aug 2024 12:02:26 +0800</lastBuildDate><atom:link href="https://example.org/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trading Analysis Dashboard</title>
+      <link>https://example.org/projects/2024_trading_analysis_dashboard/</link>
+      <pubDate>Thu, 01 Aug 2024 12:02:26 +0800</pubDate>
+      
+      <guid>https://example.org/projects/2024_trading_analysis_dashboard/</guid>
+      <description>Trading Analysis Dashboard built on Fundamental, Technical and Sentimental Analysis to detect Entry and Exit signals.</description>
+    </item>
+    
+    <item>
+      <title>Average Property Prices in Brunei</title>
+      <link>https://example.org/posts/average-property-prices-in-brunei/</link>
+      <pubDate>Mon, 21 Nov 2022 11:56:21 +0800</pubDate>
+      
+      <guid>https://example.org/posts/average-property-prices-in-brunei/</guid>
+      <description>I’ve collected a small datasets of around 3,000 property listing from 23 different Property Agents such as G.A Real Estate Agency, Bruworld Real Estate and Property Management Sdn Bhd, Bess Perfect Property Agency, Valor Property, Homestage Realty, Pan Villa and various agencies.
+From my findings, the top 3 most popular property listing type are:  2-Storey Detached House. 2-Storey Semi-Detached House. 2-Storey Terrace House.    I’ve selected the top 10 locations with the most property listing count for each of the popular property type so as to have an accurate representation of the average prices at each location.</description>
+    </item>
+    
+    <item>
+      <title>Muslim Converts in Brunei</title>
+      <link>https://example.org/posts/muslim-converts-in-brunei/</link>
+      <pubDate>Thu, 20 Oct 2022 11:56:31 +0800</pubDate>
+      
+      <guid>https://example.org/posts/muslim-converts-in-brunei/</guid>
+      <description>Sources Dataset from Brunei Department of Statistics
+Link: https://deps.mofe.gov.bn/SitePages/edata%20Library.aspx
+Software Credits To SJ Data Viz
+Link: https://www.sjdataviz.com/software</description>
+    </item>
+    
+  </channel>
+</rss>

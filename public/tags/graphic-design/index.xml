@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphic Design on Zeeyad Rahman</title>
+    <link>https://example.org/tags/graphic-design/</link>
+    <description>Recent content in Graphic Design on Zeeyad Rahman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Feb 2025 12:02:00 +0800</lastBuildDate><atom:link href="https://example.org/tags/graphic-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wildlife Art</title>
+      <link>https://example.org/projects/2025_wildlifeart/</link>
+      <pubDate>Sun, 16 Feb 2025 12:02:00 +0800</pubDate>
+      
+      <guid>https://example.org/projects/2025_wildlifeart/</guid>
+      <description>WildlifeArt offers high-quality vector and digital illustrations of animals and mythical creatures, designed for use in both digital and print projects. Our assets are perfect for web projects, branding, advertising campaigns, scrapbooking, card making, sublimation, and digital planners. They can also be used for merchandise, such as t-shirts, stickers, and posters.</description>
+    </item>
+    
+  </channel>
+</rss>

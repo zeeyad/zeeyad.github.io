@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQLite on Zeeyad Rahman</title>
+    <link>https://example.org/tags/sqlite/</link>
+    <description>Recent content in SQLite on Zeeyad Rahman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Aug 2024 12:02:26 +0800</lastBuildDate><atom:link href="https://example.org/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trading Analysis Dashboard</title>
+      <link>https://example.org/projects/2024_trading_analysis_dashboard/</link>
+      <pubDate>Thu, 01 Aug 2024 12:02:26 +0800</pubDate>
+      
+      <guid>https://example.org/projects/2024_trading_analysis_dashboard/</guid>
+      <description>Trading Analysis Dashboard built on Fundamental, Technical and Sentimental Analysis to detect Entry and Exit signals.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content Management System on Zeeyad Rahman</title>
+    <link>https://example.org/tags/content-management-system/</link>
+    <description>Recent content in Content Management System on Zeeyad Rahman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Jul 2016 12:02:40 +0800</lastBuildDate><atom:link href="https://example.org/tags/content-management-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BRUVERA</title>
+      <link>https://example.org/projects/2016_bruvera/</link>
+      <pubDate>Fri, 01 Jul 2016 12:02:40 +0800</pubDate>
+      
+      <guid>https://example.org/projects/2016_bruvera/</guid>
+      <description>BRUVERA is an e-commerce site featuring Bruneian Brands and Products for Fashion, Beauty and Lifestyle in 2016. It was launched under the first bootcamp cycle organized by Darussalam Enterprise. Sales was made via a Payment Gateway, MerchantSuite.</description>
+    </item>
+    
+  </channel>
+</rss>
