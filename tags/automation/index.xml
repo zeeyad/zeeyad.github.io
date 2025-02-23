@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graphic Design on Zeeyad Rahman</title>
-    <link>https://zeeyad.github.io/tags/graphic-design/</link>
-    <description>Recent content in Graphic Design on Zeeyad Rahman</description>
+    <title>Automation on Zeeyad Rahman</title>
+    <link>https://zeeyad.github.io/tags/automation/</link>
+    <description>Recent content in Automation on Zeeyad Rahman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Feb 2025 10:39:20 +0800</lastBuildDate><atom:link href="https://zeeyad.github.io/tags/graphic-design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 10:39:20 +0800</lastBuildDate><atom:link href="https://zeeyad.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bringing Creatures to Life: My Illustration Process for GetWildlifeArt</title>
       <link>https://zeeyad.github.io/posts/2025_process-creation-for-getwildlifeart/</link>
@@ -16,15 +16,6 @@
       <description>Step 1: Generating AI Art with Leonardo AI 🛠️ I start by using prompt engineering in Leonardo AI to generate detailed and unique wildlife and fantasy illustrations. The goal is to get a strong foundation that I can refine later.
 Alternative option to Leonardo AI:
  MidJourney Stable Diffusion  Step 2: Extracting &amp;amp; Organizing Images with Python 🤖 Once I have a batch of AI-generated images, I use Python scripts to extract individual illustrations, making it easier to process them efficiently.</description>
-    </item>
-    
-    <item>
-      <title>Wildlife Art</title>
-      <link>https://zeeyad.github.io/projects/2025_wildlifeart/</link>
-      <pubDate>Sun, 16 Feb 2025 12:02:00 +0800</pubDate>
-      
-      <guid>https://zeeyad.github.io/projects/2025_wildlifeart/</guid>
-      <description>WildlifeArt offers high-quality vector and digital illustrations of animals and mythical creatures, designed for use in both digital and print projects. Our assets are perfect for web projects, branding, advertising campaigns, scrapbooking, card making, sublimation, and digital planners. They can also be used for merchandise, such as t-shirts, stickers, and posters.</description>
     </item>
     
   </channel>

@@ -6,7 +6,18 @@
     <description>Recent content in Python on Zeeyad Rahman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Feb 2025 12:02:00 +0800</lastBuildDate><atom:link href="https://zeeyad.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 10:39:20 +0800</lastBuildDate><atom:link href="https://zeeyad.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bringing Creatures to Life: My Illustration Process for GetWildlifeArt</title>
+      <link>https://zeeyad.github.io/posts/2025_process-creation-for-getwildlifeart/</link>
+      <pubDate>Sun, 23 Feb 2025 10:39:20 +0800</pubDate>
+      
+      <guid>https://zeeyad.github.io/posts/2025_process-creation-for-getwildlifeart/</guid>
+      <description>Step 1: Generating AI Art with Leonardo AI 🛠️ I start by using prompt engineering in Leonardo AI to generate detailed and unique wildlife and fantasy illustrations. The goal is to get a strong foundation that I can refine later.
+Alternative option to Leonardo AI:
+ MidJourney Stable Diffusion  Step 2: Extracting &amp;amp; Organizing Images with Python 🤖 Once I have a batch of AI-generated images, I use Python scripts to extract individual illustrations, making it easier to process them efficiently.</description>
+    </item>
+    
     <item>
       <title>Wildlife Art</title>
       <link>https://zeeyad.github.io/projects/2025_wildlifeart/</link>
@@ -38,20 +49,20 @@ Technology Stack
     
     <item>
       <title>Average Property Prices in Brunei</title>
-      <link>https://zeeyad.github.io/posts/average-property-prices-in-brunei/</link>
+      <link>https://zeeyad.github.io/posts/2022_average-property-prices-in-brunei/</link>
       <pubDate>Mon, 21 Nov 2022 11:56:21 +0800</pubDate>
       
-      <guid>https://zeeyad.github.io/posts/average-property-prices-in-brunei/</guid>
+      <guid>https://zeeyad.github.io/posts/2022_average-property-prices-in-brunei/</guid>
       <description>I’ve collected a small datasets of around 3,000 property listing from 23 different Property Agents such as G.A Real Estate Agency, Bruworld Real Estate and Property Management Sdn Bhd, Bess Perfect Property Agency, Valor Property, Homestage Realty, Pan Villa and various agencies.
 From my findings, the top 3 most popular property listing type are:  2-Storey Detached House. 2-Storey Semi-Detached House. 2-Storey Terrace House.    I’ve selected the top 10 locations with the most property listing count for each of the popular property type so as to have an accurate representation of the average prices at each location.</description>
     </item>
     
     <item>
       <title>Muslim Converts in Brunei</title>
-      <link>https://zeeyad.github.io/posts/muslim-converts-in-brunei/</link>
+      <link>https://zeeyad.github.io/posts/2022_muslim-converts-in-brunei/</link>
       <pubDate>Thu, 20 Oct 2022 11:56:31 +0800</pubDate>
       
-      <guid>https://zeeyad.github.io/posts/muslim-converts-in-brunei/</guid>
+      <guid>https://zeeyad.github.io/posts/2022_muslim-converts-in-brunei/</guid>
       <description>Sources Dataset from Brunei Department of Statistics
 Link: https://deps.mofe.gov.bn/SitePages/edata%20Library.aspx
 Software Credits To SJ Data Viz
